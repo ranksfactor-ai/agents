@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.ranksfactor/score-ia",
+  "title": "ranksfactor Score IA",
+  "description": "Nota de 0 a 100 de si un agente de IA puede leer una web, y las guías de ranksfactor. Sin cuenta.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.ranksfactor.com/developers",
+  "repository": {
+    "url": "https://github.com/ranksfactor-ai/agents",
+    "source": "github",
+    "subfolder": "mcp/score-ia"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.ranksfactor.com/api/mcp"
+    }
+  ]
+}
